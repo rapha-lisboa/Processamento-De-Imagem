@@ -35,3 +35,5 @@ Muitos procedimentos clínicos comuns, como tomografias computadorizadas (TCs), 
 Através de técnicas como a segmentação semântica, lugares como o Amazon GO, um mercado totalmente autônomo em que os clientes apenas pegam os produtos e o valor é automaticamente debitado da conta atrelada ao login da amazon são possíveis, já que podemos utilizar a visão computacional como o controle de estoque, identificando quando um produto some de vista e assim ele pode ser atrelado à um ID cadastrado para saber o preço do produto que sumiu.
 
 ## III Conclusão
+
+Dessa forma concluimos que muitos problemas que existem há anos, podem apresentar suas soluções vinculadas à visão computacional, visto que o intuito é que com o passar dos anos o poder computacional se aproxime cada vez mais do poder que um cérebro humano possui. O cérebro humano é altamente eficiente na identificação de padrões por meio da visão e é se inspirando nele que as pesquisas avançam e tomam um rumo cada vez mais evoluido.
