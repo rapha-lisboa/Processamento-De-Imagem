@@ -11,7 +11,16 @@ Existem diversas formas que permitem com que um computador seja capaz de identif
 
 ### 2.1 Classificação de imagem
 
-#### 2.1.1 Aplicação
+Tendo como uma imagem é interpretada por um computador em consideração, a classificação de imagens consiste em um processo de decisão no qual o grupo de pixels é definido como pertencente a uma determinada classe na qual uma imagem pode possuir uma ou várias classes, desta forma a máquina durante o aprendizado é exposta à várias imagens com labels indicando a classe que pertence, no fim o intuito é que o modelo responda uma distribuição da probabilidade do item que está sendo analisado ser ded cada uma das classes, que idealmente o modelo convirja com que em todos os casos ele responda 100% para a classe correta.
+Um exemplo que pode ser citado é a classificação de 0 a 9 de números manuscritos, dados pelo dataset MNIST, nesse exercício o intúito é que com uma imagem a máquina seja capaz de identificar qual número está sendo analisado.
+
+#### 2.1.1 Aplicação de mercado
+
+Uma das aplicações de mercado que podemos fazer com essa tarefa é por exemplo a identificação de imperfeições em embalagens de uma linha de produção. Suponhamos o cenário em que em uma linha de produção tenham caixas perfeitamente embaladas, caixas amassadas que devem ser descartadas e caixas vazias que devem voltar para o inicio da produção sem serem descartadas. Para essa tomada de decisão, podemos colocar uma câmera posicionada em um lugar estratégico que com visão computacional identifique à qual classe as caixas analisadas pertencem.
+
+#### 2.1.2 Produtos comerciais relacionados
+
+Um produto que também aproveita essa tarefa para sua utilização são as câmeras sensoriais que se encontram ao redor dos carros da Tesla que apresentam a direção automática. Os carros utilizam dessa tecnologia para a identificação de demais veículos, motocicletas, pedestres, entre outros obstáculos que podem estar em volta do carro, dessa forma a direção autônoma utiliza isso para decidir o movimento que irá fazer, evitando assim acidentes.
 
 ### 2.2 Detecção de objetos
 
