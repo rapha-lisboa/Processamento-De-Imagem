@@ -22,8 +22,16 @@ Uma das aplicações de mercado que podemos fazer com essa tarefa é por exemplo
 
 Um produto que também aproveita essa tarefa para sua utilização são as câmeras sensoriais que se encontram ao redor dos carros da Tesla que apresentam a direção automática. Os carros utilizam dessa tecnologia para a identificação de demais veículos, motocicletas, pedestres, entre outros obstáculos que podem estar em volta do carro, dessa forma a direção autônoma utiliza isso para decidir o movimento que irá fazer, evitando assim acidentes.
 
-### 2.2 Detecção de objetos
+### 2.2 Segmentação Semântica
 
-#### 2.2.1 Aplicação
+Diferente da tarefa de classificação citada no tópico 2.1, onde uma classe pré-definida é identificada como pertencente à imagem ou não a tarefa de segmentação semântica vai buscar compreender a imagem completa e dessa forma dizer o que é cada conjunto de pixeis que formam um elemento único, desta forma geralmente os outputs são indicados por meio de contornos coloridos, imagens de calor, posicionamentos entre outros.
+
+#### 2.2.1 Aplicação de mercado
+
+Muitos procedimentos clínicos comuns, como tomografias computadorizadas (TCs), raios-X e ressonância magnética, dependem da análise de imagem. Embora normalmente essa tarefa tenha ficado a cargo de profissionais da área médica no passado, atualmente os modelos de segmentação de imagens médicas estão obtendo resultados semelhantes. Analisando a imagem e traçando limites exatos em torno dos vários objetos nela contidos, a IA equipada com segmentação semântica pode ajudar a detectar anomalias e até mesmo sugerir possíveis diagnósticos.
+
+#### 2.2.2 Produtos comerciais relacionados
+
+Através de técnicas como a segmentação semântica, lugares como o Amazon GO, um mercado totalmente autônomo em que os clientes apenas pegam os produtos e o valor é automaticamente debitado da conta atrelada ao login da amazon são possíveis, já que podemos utilizar a visão computacional como o controle de estoque, identificando quando um produto some de vista e assim ele pode ser atrelado à um ID cadastrado para saber o preço do produto que sumiu.
 
 ## III Conclusão
